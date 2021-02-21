@@ -1,79 +1,63 @@
-*{
+body{
     margin: 0;
-    padding: 0;
-    font-family: "Noto Sans" ,sans-serif;
-    outline:none;
-    
+    font-family: 'Noto Sans';
 }
 
-.main-page{
-    width: 100%;
-    height: 100vh;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: 1fr .1fr 2.5fr;
-}
-
-.top{
-    grid-column: 1/-1;
-    grid-row: 1/2;
+.intro{
+    margin-left: 100px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    position: relative;
+}
+
+.intro--text{
     flex-direction: column;
-    background-color:  #313F70;
-    color: #D4DBF5;
+    position: relative;
+    /* margin-left: 30em;   */
 }
 
-.top h1,.top h3{
-    margin:1rem;
+.intro img{
+    width: 25%;
+    margin: 1em;
+}
+
+.intro--title {
+    font-size: 3em;
+    margin-top: 2em;
+    /* background-color: red; */
+    display: inline-block;
+}
+
+.intro--subtitle{
+    font-size: 2em;
+    margin: 0;
+}
+
+.intro--text spam{
+    font-weight: 900;
 }
 
 
-.mid{
-    grid-column: 1/-1;
-    grid-row:2/3;
+
+.about{
+    background-image: url(img/christopher-gower-m_HRfLhgABo-unsplash@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+
+.about--div{
     display: flex;
-    align-items: center;
     justify-content: center;
-    background-color: #0A1747;
-    color: #D4DBF5;
+    width: 100%;
+    text-align: center;
 }
 
-.mid h4{
-    margin: 1rem 1rem;
+.p-about{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin-right: 4em;
+    margin-left: 1em;
 }
 
-.mid i{
-    margin-left:2rem;
-}
 
-.bot{
-    grid-column: 1/-1;
-    grid-row: 3/-1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #D4DBF5;
-    color: #0D1440;
-}
-
-.bot img{
-    width: 15rem;
-    height: 15rem;
-    margin: 4rem ;
-}
-
-/* .bot h3{
-    grid-column: 2/-1;
-    grid-row: 3/-1;
-    justify-content: center;
-} */
-
-.bot .sp1{
-    font-size: 2rem;
-}
-
-.bot span{
-    padding-bottom: 4rem;
-}
