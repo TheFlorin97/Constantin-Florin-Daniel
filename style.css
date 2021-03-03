@@ -1,79 +1,78 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: "Noto Sans" ,sans-serif;
-    outline:none;
+    box-sizing: border-box;
+}
+
+body{
+    background:linear-gradient(
+         to right , 
+      #FF5F6D,#FFC371
+    );
+    font-family: "Montserrat","sans-serif";
+    height: 100vh; 
+    position: relative;
+}
+
+.info{
+    width: 60%;
+    height: 60%;
+    background: #fff;
+    position: absolute;
+     top: 50%;
+    left: 50%;
+    /* margin-right: -50%; */
+    transform: translate(-50%, -50%) ;
+    display: flex;
+
+}
+
+.info-left{
+    /* display: inline-block; */
+    width: 55%;
+    text-align: center;
+    background-image: url(meric-dagli-2i-JP4tVAp8-unsplash.jpg);
+    background-size: cover;
+    color: #fff;
+}
+
+
+.info-left h1{
+    padding-top: 20vh;
+    font-weight: 800;
+    font-size: 37px;
+}
+
+.info-left h2{
+    padding-top: 5vh;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.info-right{
+    display: inline-block;
+    width: 40%;
+    padding-top: 14vh;
+    padding-left: 3vw;
     
 }
 
-.main-page{
-    width: 100%;
-    height: 100vh;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: 1fr .1fr 2.5fr;
+.info-right p{
+    padding: 10px;
+    line-height: 2.4;
+    font-size: 20px;
+    color: rgb(100, 100, 100);
 }
 
-.top{
-    grid-column: 1/-1;
-    grid-row: 1/2;
+.links{
+    position: absolute;
+    top: 83%;
+    left: 28%;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color:  #313F70;
-    color: #D4DBF5;
 }
 
-.top h1,.top h3{
-    margin:1rem;
-}
-
-
-.mid{
-    grid-column: 1/-1;
-    grid-row:2/3;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #0A1747;
-    color: #D4DBF5;
-}
-
-.mid h4{
-    margin: 1rem 1rem;
-}
-
-.mid i{
-    margin-left:2rem;
-}
-
-.bot{
-    grid-column: 1/-1;
-    grid-row: 3/-1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #D4DBF5;
-    color: #0D1440;
-}
-
-.bot img{
-    width: 15rem;
-    height: 15rem;
-    margin: 4rem ;
-}
-
-/* .bot h3{
-    grid-column: 2/-1;
-    grid-row: 3/-1;
-    justify-content: center;
-} */
-
-.bot .sp1{
-    font-size: 2rem;
-}
-
-.bot span{
-    padding-bottom: 4rem;
+.links a{
+    font-size: 50px;
+    padding-right: 50%;
+    color: #fff;
 }
