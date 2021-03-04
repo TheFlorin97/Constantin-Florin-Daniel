@@ -19,7 +19,7 @@ body{
     height: 60%;
     background: #fff;
     position: absolute;
-     top: 50%;
+     top: 48%;
     left: 50%;
     /* margin-right: -50%; */
     transform: translate(-50%, -50%) ;
@@ -31,7 +31,9 @@ body{
     /* display: inline-block; */
     width: 55%;
     text-align: center;
-    background-image: url(meric-dagli-2i-JP4tVAp8-unsplash.jpg);
+    background-image:
+    linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7) ),
+    url(meric-dagli-2i-JP4tVAp8-unsplash.jpg);
     background-size: cover;
     color: #fff;
 }
