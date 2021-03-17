@@ -1,3 +1,14 @@
+/* linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7) ),
+    url(pic/meric-dagli-2i-JP4tVAp8-unsplash.jpg); 
+    
+    color: rgb(100, 100, 100);
+
+    background:linear-gradient(
+         to right , 
+    #FF5F6D,#FFC371);
+
+*/
+
 *{
     margin: 0;
     padding: 0;

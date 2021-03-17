@@ -28,8 +28,9 @@ body{
 }
 
 .about__left h1{
-    padding-top: 20% ;
-    font-size: 50px;
+    padding-top: 35% ;
+    padding-right: 5%;
+    font-size: 60px;
 }
 
 .about__left h2{
@@ -39,13 +40,14 @@ body{
 }
 
 .about__right{
-    /* background-image: linear-gradient(to right bottom,#ddd6f3,#faaca8); */
+    
     background-image: linear-gradient(to left bottom,#009FFF,#ec2F4B);
     width: 45vw;
 }
 
 .about__right p{
-    padding: 5% 30px;
+    padding-left:20%;
+    padding-top: 8%;
     font-size: 30px;
     font-weight: 300;
     color: white;
