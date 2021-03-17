@@ -36,8 +36,10 @@ body{
 }
 
 .about__left h1{
-    padding-top: 20% ;
-    font-size: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25% ;
+    font-size: 55px;
     color: #fff;
 }
 
@@ -68,7 +70,7 @@ body{
 
 .links{
     display: flex;
-    padding-top: 20px;
+    padding-top: 15vh;
     padding-left: 17%;
 }
 
@@ -81,21 +83,21 @@ body{
 @media (max-width: 1000px) {
     .about{
       flex-direction: column;
-      height: 150vh;
+      height: 110vh;
     }
 
     .about-item{
-        width: 60vw;
+        width: 70vw;
     }
 
     .about__left{
         height: 60vh;
-        margin-top: 10vh;
+        margin-top: 8vh;
     }
 
     .about__right{
       padding: 0;
-      margin-bottom: 10vh;
+      margin-bottom: 8vh;
       height: 80vh;
     }
 
@@ -112,11 +114,12 @@ body{
     }
 }
 
-@media(max-width:200px){
+@media(max-width:500px){
 
     
     .about__left h1{
-
+        font-size: 45px;
+        text-align: left;
     }
 
 
