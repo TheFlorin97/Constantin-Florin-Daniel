@@ -114,7 +114,7 @@ body{
     }
 
     .about__right p{
-        padding-left: 10px;
+        padding-left: 7vw;
     }
 
     .about__right p:first-child{
@@ -132,7 +132,22 @@ body{
     .about__left h1{
         font-size: 45px;
         text-align: left;
+        padding-top: 10vh;
     }
 
+}
 
+@media(max-width:400px){
+
+    
+    .about__left h1{
+        font-size: 40px;
+        text-align: left;
+        padding-left: 10px;
+        padding-top: 12vh;
+    }
+
+    .about__right {
+        height: 60vh;
+    }
 }
