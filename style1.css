@@ -150,4 +150,20 @@ body{
     .about__right {
         height: 60vh;
     }
+
+    .links{
+        padding-left: 1vw;
+    }
+}
+
+@media(max-height:850px){
+    .links{
+        padding-top:10vh ;
+    }
+}
+
+@media(max-height:750px){
+    .links{
+        padding-top:5vh ;
+    }
 }
