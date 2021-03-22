@@ -18,6 +18,159 @@ body{
 }
 
 .about-item{
+    height: 65vh;
+    text-align: left;
+}
+
+.about__left{
+    width: 33vw;
+    text-align: center;
+    color: rgb(100, 100, 100);
+}
+
+.about__left h1{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25% ;
+    font-size: 55px;
+    color: rgb(100, 100, 100);
+}
+
+.about__left h2{
+    padding-top: 10% ;
+    font-size: 25px;
+    font-weight: 300;
+    
+}
+
+.about__right{
+    width: 37vw;
+    height: 65vh;
+    padding-left: 3vw;
+    background-image: linear-gradient(to left bottom,#009FFF,#ec2F4B);
+}
+
+.about__right p:first-child{
+    padding-top: 10vh;
+}
+
+.about__right p{
+    padding: 10px;
+    padding-left: 3vw;
+    line-height: 2.4;
+    font-size: 20px;
+    color: white;
+}
+
+.links{
+    display: flex;
+    padding-top: 15vh;
+    padding-left: 17%;
+}
+
+.links a{
+    font-size: 40px;
+    padding-left: 10%;
+    color: white;
+} 
+
+@media (max-width: 1000px) {
+    .about{
+      flex-direction: column;
+      height: 110vh;
+    }
+
+    .about-item{
+        width: 70vw;
+    }
+
+    .about__left{
+        height: 60vh;
+        margin-top: 8vh;
+    }
+
+    .about__right{
+      padding: 0;
+      margin-bottom: 8vh;
+      height: 80vh;
+    }
+
+    .about__right p{
+        padding-left: 7vw;
+    }
+
+    .about__right p:first-child{
+        padding-top: 10vh;
+    }
+
+    .links{
+        padding-top: 12vh;
+    }
+}
+
+@media(max-width:500px){
+
+    
+    .about__left h1{
+        font-size: 45px;
+        text-align: left;
+        padding-top: 10vh;
+    }
+
+}
+
+@media(max-width:400px){
+
+    
+    .about__left h1{
+        font-size: 40px;
+        text-align: left;
+        padding-left: 10px;
+        padding-top: 12vh;
+    }
+
+    .about__right {
+        height: 60vh;
+    }
+
+    .links{
+        padding-left: 1vw;
+    }
+}
+
+@media(max-height:850px){
+    .links{
+        padding-top:10vh ;
+    }
+}
+
+@media(max-height:750px){
+    .links{
+        padding-top:5vh ;
+    }
+}
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+    background-color: rgb(250, 250, 250);
+    
+}
+
+.about{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-item{
     height: 70vh;
     text-align: left;
 }
@@ -51,4 +204,4 @@ body{
     font-size: 30px;
     font-weight: 300;
     color: white;
-}
+} */
