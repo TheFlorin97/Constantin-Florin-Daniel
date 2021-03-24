@@ -78,56 +78,55 @@ body{
 /* Start of Style Button */
 
 .buttons a {
-		color:white;
-		text-decoration: none;
-        text-align: center;
-        font-size: 20px;
+	color:white;
+	text-decoration: none;
+    text-align: center;
+    font-size: 20px;
 }
 
 .buttons{
     position: relative;
     padding-left: 10vw;
-		max-width: 960px;
-        color: #ec2F4B;
-        z-index: 1;
+	max-width: 960px;
+    color: #ec2f7e;
+    z-index: 1;
 }
 
 .buttons .button {
-		display: inline-block;
-		width: 130px;
-		height: 40px;
-		line-height: 40px;
-		margin: 20px;
-		position:relative;
-		overflow: hidden;
-		border: 2px solid #ec2F4B;
-        
-		transition: color .5s;
+	display: inline-block;
+	width: 130px;
+	height: 40px;
+	line-height: 40px;
+	margin: 20px;
+	position:relative;
+	overflow: hidden;
+	border: 2px solid #ec2F4B;
+    transition: color .5s;
 }
 
 .buttons .button:before {
-		content: "";
-		position: absolute;
-		z-index: -1;
-		background: #ec2F4B;
-		height: 150px;
-		width: 200px;
-		border-radius: 50%;
+	content: "";
+	position: absolute;
+	z-index: -1;
+	background: #ec2F4B;
+	height: 150px;
+	width: 200px;
+	border-radius: 50%;
 }
 
 .buttons .button:hover {
-		color: #fff;
+	color: #fff;
 }
 
 .buttons .button:before {
-		top: 0;
-		left: -200%;
-		transition: all .7s;
+	top: 0;
+	left: -200%;
+	transition: all .7s;
 }
 
 .buttons .button:hover:before {
-		top: -30px;
-		left: -30px;
+	top: -30px;
+	left: -30px;
 }
 
 /* End of Style Button */
